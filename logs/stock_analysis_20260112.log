@@ -1,0 +1,117 @@
+2026-01-12 00:08:59,375 - INFO - Starting Flask server on port 5000...
+2026-01-12 00:09:04,399 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-12 00:09:04,400 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 00:09:04,404 - INFO -  * Restarting with stat
+2026-01-12 00:09:05,087 - INFO - Starting Flask server on port 5000...
+2026-01-12 00:09:05,102 - WARNING -  * Debugger is active!
+2026-01-12 00:09:05,126 - INFO -  * Debugger PIN: 220-719-903
+2026-01-12 00:09:08,268 - INFO - Starting analysis for top 500 stocks...
+2026-01-12 00:11:12,877 - ERROR - 
+1 Failed download:
+2026-01-12 00:11:12,878 - ERROR - ['AUBANK.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:11:52,116 - ERROR - 
+1 Failed download:
+2026-01-12 00:11:52,118 - ERROR - ['IOC.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:20:17,110 - ERROR - 
+1 Failed download:
+2026-01-12 00:20:17,111 - ERROR - ['MARICO.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:20:31,210 - ERROR - 
+1 Failed download:
+2026-01-12 00:20:31,210 - ERROR - ['HINDPETRO.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:22:57,672 - ERROR - 
+1 Failed download:
+2026-01-12 00:22:57,672 - ERROR - ['ADANIPOWER.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:27:46,830 - INFO -  * Detected change in '/Users/alabana/Documents/short-term-growth/api_requests/main.py', reloading
+2026-01-12 00:27:46,927 - INFO -  * Restarting with stat
+2026-01-12 00:27:47,718 - INFO - Starting Flask server on port 5000...
+2026-01-12 00:27:47,735 - WARNING -  * Debugger is active!
+2026-01-12 00:27:47,761 - INFO -  * Debugger PIN: 220-719-903
+2026-01-12 00:41:34,340 - INFO - Starting Flask server on port 5000...
+2026-01-12 00:41:39,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-12 00:41:39,360 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 00:41:39,360 - INFO -  * Restarting with stat
+2026-01-12 00:41:39,942 - INFO - Starting Flask server on port 5000...
+2026-01-12 00:41:39,957 - WARNING -  * Debugger is active!
+2026-01-12 00:41:39,983 - INFO -  * Debugger PIN: 220-719-903
+2026-01-12 00:41:41,603 - INFO - Starting analysis for top 5 stocks...
+2026-01-12 00:41:41,603 - INFO - Processing first 5 stocks
+2026-01-12 00:41:58,228 - ERROR - 
+1 Failed download:
+2026-01-12 00:41:58,228 - ERROR - ['OIL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:42:03,879 - INFO - Analysis completed. Found 5 stocks
+2026-01-12 00:42:03,879 - INFO - 127.0.0.1 - - [12/Jan/2026 00:42:03] "POST /analyze HTTP/1.1" 200 -
+2026-01-12 00:42:15,452 - INFO - Starting analysis for top 500 stocks...
+2026-01-12 00:42:15,452 - INFO - Using batched processing (5 batches with 60s gaps)
+2026-01-12 00:42:39,311 - ERROR - 
+1 Failed download:
+2026-01-12 00:42:39,311 - ERROR - ['PETRONET.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:45:24,840 - ERROR - 
+1 Failed download:
+2026-01-12 00:45:24,840 - ERROR - ['ETERNAL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:49:40,050 - ERROR - 
+1 Failed download:
+2026-01-12 00:49:40,050 - ERROR - ['KOTAKBANK.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:50:00,530 - ERROR - 
+1 Failed download:
+2026-01-12 00:50:00,530 - ERROR - ['GICRE.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:51:28,054 - ERROR - 
+1 Failed download:
+2026-01-12 00:51:28,054 - ERROR - ['CLEAN.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:52:52,714 - ERROR - 
+1 Failed download:
+2026-01-12 00:52:52,715 - ERROR - ['BHARATFORG.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:53:18,022 - ERROR - 
+1 Failed download:
+2026-01-12 00:53:18,022 - ERROR - ['GLAND.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:53:55,080 - ERROR - 
+1 Failed download:
+2026-01-12 00:53:55,080 - ERROR - ['BDL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:56:51,755 - ERROR - 
+1 Failed download:
+2026-01-12 00:56:51,755 - ERROR - ['GUJGASLTD.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:57:10,077 - ERROR - 
+1 Failed download:
+2026-01-12 00:57:10,079 - ERROR - ['CONCOR.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:58:22,133 - ERROR - 
+1 Failed download:
+2026-01-12 00:58:22,133 - ERROR - ['BERGEPAINT.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 01:04:53,796 - ERROR - Failed to get ticker 'EXIDEIND.NS' reason: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:06:02,697 - ERROR - Failed to get ticker 'VIJAYA.NS' reason: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:06:50,796 - ERROR - Failed to get ticker 'AADHARHFC.NS' reason: Failed to perform, curl: (28) Connection timed out after 10003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:06:50,797 - ERROR - $AADHARHFC.NS: possibly delisted; no timezone found
+2026-01-12 01:06:50,802 - ERROR - 
+1 Failed download:
+2026-01-12 01:06:50,803 - ERROR - ['AADHARHFC.NS']: possibly delisted; no timezone found
+2026-01-12 01:07:08,206 - ERROR - Failed to get ticker 'RECLTD.NS' reason: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:07:08,207 - ERROR - $RECLTD.NS: possibly delisted; no timezone found
+2026-01-12 01:07:08,219 - ERROR - 
+1 Failed download:
+2026-01-12 01:07:08,219 - ERROR - ['RECLTD.NS']: possibly delisted; no timezone found
+2026-01-12 01:12:23,195 - ERROR - Failed to get ticker 'NEWGEN.NS' reason: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:12:23,196 - ERROR - $NEWGEN.NS: possibly delisted; no timezone found
+2026-01-12 01:12:23,203 - ERROR - 
+1 Failed download:
+2026-01-12 01:12:23,203 - ERROR - ['NEWGEN.NS']: possibly delisted; no timezone found
+2026-01-12 01:12:49,695 - ERROR - Failed to get ticker 'AEGISVOPAK.NS' reason: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:12:49,696 - ERROR - $AEGISVOPAK.NS: possibly delisted; no timezone found
+2026-01-12 01:12:49,705 - ERROR - 
+1 Failed download:
+2026-01-12 01:12:49,705 - ERROR - ['AEGISVOPAK.NS']: possibly delisted; no timezone found
+2026-01-12 01:14:18,594 - ERROR - Failed to get ticker 'ASAHIINDIA.NS' reason: Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:14:18,595 - ERROR - $ASAHIINDIA.NS: possibly delisted; no timezone found
+2026-01-12 01:14:18,604 - ERROR - 
+1 Failed download:
+2026-01-12 01:14:18,604 - ERROR - ['ASAHIINDIA.NS']: possibly delisted; no timezone found
+2026-01-12 01:14:49,507 - ERROR - Failed to get ticker 'HEG.NS' reason: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-12 01:14:49,508 - ERROR - $HEG.NS: possibly delisted; no timezone found
+2026-01-12 01:14:49,508 - ERROR - 
+1 Failed download:
+2026-01-12 01:14:49,508 - ERROR - ['HEG.NS']: possibly delisted; no timezone found
+2026-01-12 01:15:41,468 - INFO - Analysis completed. Found 5 stocks
+2026-01-12 01:15:41,469 - INFO - 127.0.0.1 - - [12/Jan/2026 01:15:41] "POST /analyze HTTP/1.1" 200 -

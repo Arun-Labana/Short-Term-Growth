@@ -1,0 +1,6 @@
+yfinance
+requests
+nselib
+pandas
+scipy
+Flask

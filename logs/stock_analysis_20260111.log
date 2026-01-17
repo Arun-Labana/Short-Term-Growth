@@ -1,0 +1,787 @@
+2026-01-11 18:55:38,397 - INFO - Starting Stock Analysis API Server...
+2026-01-11 18:55:42,624 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 18:55:42,624 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 18:55:47,728 - INFO - 127.0.0.1 - - [11/Jan/2026 18:55:47] "GET / HTTP/1.1" 200 -
+2026-01-11 18:55:55,105 - INFO - 127.0.0.1 - - [11/Jan/2026 18:55:55] "GET / HTTP/1.1" 200 -
+2026-01-11 18:55:55,109 - INFO - Received analysis request for 10 stocks
+2026-01-11 18:55:55,110 - INFO - Starting analysis for 10 stocks
+2026-01-11 18:55:55,110 - INFO - 127.0.0.1 - - [11/Jan/2026 18:55:55] "[35m[1mPOST /analyze HTTP/1.1[0m" 202 -
+2026-01-11 18:55:55,115 - INFO - 127.0.0.1 - - [11/Jan/2026 18:55:55] "GET /status HTTP/1.1" 200 -
+2026-01-11 18:55:57,127 - INFO - 127.0.0.1 - - [11/Jan/2026 18:55:57] "GET /status HTTP/1.1" 200 -
+2026-01-11 18:55:59,132 - INFO - 127.0.0.1 - - [11/Jan/2026 18:55:59] "GET /status HTTP/1.1" 200 -
+2026-01-11 18:56:01,135 - INFO - 127.0.0.1 - - [11/Jan/2026 18:56:01] "GET /status HTTP/1.1" 200 -
+2026-01-11 18:57:13,713 - INFO - Starting Stock Analysis API Server...
+2026-01-11 18:57:13,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 18:57:13,718 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 18:58:40,815 - INFO - Received analysis request for 10 stocks
+2026-01-11 18:58:40,815 - INFO - Starting analysis for 10 stocks
+2026-01-11 18:58:40,816 - INFO - 127.0.0.1 - - [11/Jan/2026 18:58:40] "[35m[1mPOST /analyze HTTP/1.1[0m" 202 -
+2026-01-11 18:58:44,554 - INFO - Progress: 1/10 (10.0%) - Success: 1, Failed: 0
+2026-01-11 18:58:54,782 - INFO - 127.0.0.1 - - [11/Jan/2026 18:58:54] "GET /status HTTP/1.1" 200 -
+2026-01-11 18:58:55,077 - ERROR - 
+1 Failed download:
+2026-01-11 18:58:55,077 - ERROR - ['HINDZINC.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 18:59:00,372 - INFO - Progress: 2/10 (20.0%) - Success: 2, Failed: 0
+2026-01-11 18:59:02,226 - INFO - Progress: 3/10 (30.0%) - Success: 3, Failed: 0
+2026-01-11 18:59:03,732 - INFO - Progress: 4/10 (40.0%) - Success: 4, Failed: 0
+2026-01-11 18:59:06,457 - INFO - Progress: 5/10 (50.0%) - Success: 5, Failed: 0
+2026-01-11 18:59:07,505 - INFO - 127.0.0.1 - - [11/Jan/2026 18:59:07] "GET /status HTTP/1.1" 200 -
+2026-01-11 18:59:07,970 - INFO - Progress: 6/10 (60.0%) - Success: 6, Failed: 0
+2026-01-11 18:59:09,713 - INFO - Progress: 7/10 (70.0%) - Success: 7, Failed: 0
+2026-01-11 18:59:11,184 - INFO - Progress: 8/10 (80.0%) - Success: 8, Failed: 0
+2026-01-11 18:59:12,737 - INFO - Progress: 9/10 (90.0%) - Success: 9, Failed: 0
+2026-01-11 18:59:14,606 - INFO - Progress: 10/10 (100.0%) - Success: 10, Failed: 0
+2026-01-11 18:59:14,607 - INFO - Analysis completed successfully. Top stock: PETRONET
+2026-01-11 18:59:15,800 - INFO - 127.0.0.1 - - [11/Jan/2026 18:59:15] "GET /status HTTP/1.1" 200 -
+2026-01-11 18:59:24,841 - INFO - 127.0.0.1 - - [11/Jan/2026 18:59:24] "GET /results HTTP/1.1" 200 -
+2026-01-11 19:00:10,244 - INFO - Received analysis request for 15 stocks
+2026-01-11 19:00:10,245 - INFO - Starting analysis for 15 stocks
+2026-01-11 19:00:10,246 - INFO - 127.0.0.1 - - [11/Jan/2026 19:00:10] "[35m[1mPOST /analyze HTTP/1.1[0m" 202 -
+2026-01-11 19:00:10,851 - INFO - Progress: 1/15 (6.7%) - Success: 1, Failed: 0
+2026-01-11 19:00:11,623 - INFO - Progress: 2/15 (13.3%) - Success: 2, Failed: 0
+2026-01-11 19:00:12,378 - INFO - Progress: 3/15 (20.0%) - Success: 3, Failed: 0
+2026-01-11 19:00:15,471 - INFO - Progress: 4/15 (26.7%) - Success: 4, Failed: 0
+2026-01-11 19:00:16,180 - INFO - Progress: 5/15 (33.3%) - Success: 5, Failed: 0
+2026-01-11 19:00:16,494 - INFO - 127.0.0.1 - - [11/Jan/2026 19:00:16] "GET /status HTTP/1.1" 200 -
+2026-01-11 19:00:16,869 - INFO - Progress: 6/15 (40.0%) - Success: 6, Failed: 0
+2026-01-11 19:00:19,788 - INFO - 127.0.0.1 - - [11/Jan/2026 19:00:19] "GET /status HTTP/1.1" 200 -
+2026-01-11 19:00:23,288 - INFO - Progress: 7/15 (46.7%) - Success: 7, Failed: 0
+2026-01-11 19:00:24,226 - INFO - Progress: 8/15 (53.3%) - Success: 8, Failed: 0
+2026-01-11 19:00:24,975 - INFO - Progress: 9/15 (60.0%) - Success: 9, Failed: 0
+2026-01-11 19:00:45,548 - INFO - Progress: 10/15 (66.7%) - Success: 10, Failed: 0
+2026-01-11 19:00:47,350 - INFO - Progress: 11/15 (73.3%) - Success: 11, Failed: 0
+2026-01-11 19:00:50,120 - INFO - Progress: 12/15 (80.0%) - Success: 12, Failed: 0
+2026-01-11 19:00:51,867 - INFO - Progress: 13/15 (86.7%) - Success: 13, Failed: 0
+2026-01-11 19:00:53,869 - INFO - Progress: 14/15 (93.3%) - Success: 14, Failed: 0
+2026-01-11 19:01:04,380 - ERROR - 
+1 Failed download:
+2026-01-11 19:01:04,382 - ERROR - ['EMCURE.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 19:01:06,326 - INFO - Progress: 15/15 (100.0%) - Success: 15, Failed: 0
+2026-01-11 19:01:06,327 - INFO - Analysis completed successfully. Top stock: PETRONET
+2026-01-11 19:02:29,144 - INFO - Received analysis request for 10 stocks
+2026-01-11 19:02:29,145 - INFO - Starting analysis for 10 stocks
+2026-01-11 19:02:29,145 - INFO - 127.0.0.1 - - [11/Jan/2026 19:02:29] "[35m[1mPOST /analyze HTTP/1.1[0m" 202 -
+2026-01-11 19:02:30,348 - INFO - Progress: 1/10 (10.0%) - Success: 1, Failed: 0
+2026-01-11 19:02:31,165 - INFO - Progress: 2/10 (20.0%) - Success: 2, Failed: 0
+2026-01-11 19:02:46,152 - INFO - Progress: 3/10 (30.0%) - Success: 3, Failed: 0
+2026-01-11 19:02:46,877 - INFO - Progress: 4/10 (40.0%) - Success: 4, Failed: 0
+2026-01-11 19:02:47,597 - INFO - Progress: 5/10 (50.0%) - Success: 5, Failed: 0
+2026-01-11 19:02:48,435 - INFO - Progress: 6/10 (60.0%) - Success: 6, Failed: 0
+2026-01-11 19:02:49,272 - INFO - Progress: 7/10 (70.0%) - Success: 7, Failed: 0
+2026-01-11 19:02:50,031 - INFO - Progress: 8/10 (80.0%) - Success: 8, Failed: 0
+2026-01-11 19:02:52,386 - INFO - Progress: 9/10 (90.0%) - Success: 9, Failed: 0
+2026-01-11 19:02:53,336 - INFO - Progress: 10/10 (100.0%) - Success: 10, Failed: 0
+2026-01-11 19:02:53,337 - INFO - Analysis completed successfully. Top stock: PETRONET
+2026-01-11 19:02:55,433 - INFO - 127.0.0.1 - - [11/Jan/2026 19:02:55] "GET / HTTP/1.1" 200 -
+2026-01-11 19:03:18,032 - INFO - ============================================================
+2026-01-11 19:03:18,032 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:03:18,032 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:03:18,032 - INFO - ============================================================
+2026-01-11 19:03:18,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:03:18,038 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:03:26,402 - INFO - ============================================================
+2026-01-11 19:03:26,403 - INFO - Received analysis request for 5 stocks
+2026-01-11 19:03:26,403 - INFO - ============================================================
+2026-01-11 19:03:26,403 - INFO - Starting analysis...
+2026-01-11 19:03:37,504 - ERROR - 
+1 Failed download:
+2026-01-11 19:03:37,505 - ERROR - ['NATIONALUM.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 19:03:48,998 - INFO - Analysis completed in 22.6s
+2026-01-11 19:03:48,998 - INFO - Top stock: ASHOKLEY with score 65.5/80
+2026-01-11 19:03:48,998 - INFO - ============================================================
+2026-01-11 19:03:49,000 - INFO - 127.0.0.1 - - [11/Jan/2026 19:03:49] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:06:04,714 - INFO - ============================================================
+2026-01-11 19:06:04,715 - INFO - Received analysis request for 10 stocks
+2026-01-11 19:06:04,715 - INFO - ============================================================
+2026-01-11 19:06:04,715 - INFO - Starting analysis...
+2026-01-11 19:07:07,120 - INFO - Analysis completed in 62.4s
+2026-01-11 19:07:07,121 - INFO - Top stock: PETRONET with score 68.5/80
+2026-01-11 19:07:07,121 - INFO - ============================================================
+2026-01-11 19:07:07,130 - INFO - 127.0.0.1 - - [11/Jan/2026 19:07:07] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:08:46,350 - INFO - ============================================================
+2026-01-11 19:08:46,350 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:08:46,350 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:08:46,350 - INFO - ============================================================
+2026-01-11 19:08:46,355 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:08:46,355 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:08:56,390 - INFO - ============================================================
+2026-01-11 19:08:56,390 - INFO - Received analysis request for 15 stocks
+2026-01-11 19:08:56,390 - INFO - ============================================================
+2026-01-11 19:08:56,390 - INFO - Starting analysis...
+2026-01-11 19:09:34,156 - INFO - Analysis completed in 37.8s
+2026-01-11 19:09:34,156 - INFO - Top stock: PETRONET with score 73.5/80
+2026-01-11 19:09:34,157 - INFO - ============================================================
+2026-01-11 19:09:34,159 - INFO - 127.0.0.1 - - [11/Jan/2026 19:09:34] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:10:28,314 - INFO - ============================================================
+2026-01-11 19:10:28,315 - INFO - Received analysis request for 15 stocks
+2026-01-11 19:10:28,315 - INFO - ============================================================
+2026-01-11 19:10:28,315 - INFO - Starting analysis...
+2026-01-11 19:10:44,677 - INFO - Analysis completed in 16.4s
+2026-01-11 19:10:44,677 - INFO - Top stock: PETRONET with score 73.5/80
+2026-01-11 19:10:44,677 - INFO - ============================================================
+2026-01-11 19:10:44,678 - INFO - 127.0.0.1 - - [11/Jan/2026 19:10:44] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:11:33,754 - INFO - ============================================================
+2026-01-11 19:11:33,754 - INFO - Received analysis request for 10 stocks
+2026-01-11 19:11:33,754 - INFO - ============================================================
+2026-01-11 19:11:33,754 - INFO - Starting analysis...
+2026-01-11 19:11:46,439 - INFO - Analysis completed in 12.7s
+2026-01-11 19:11:46,439 - INFO - Top stock: PETRONET with score 73.5/80
+2026-01-11 19:11:46,440 - INFO - ============================================================
+2026-01-11 19:11:46,440 - INFO - 127.0.0.1 - - [11/Jan/2026 19:11:46] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:14:36,497 - INFO - ============================================================
+2026-01-11 19:14:36,497 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:14:36,497 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:14:36,497 - INFO - ============================================================
+2026-01-11 19:14:40,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:14:40,729 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:14:41,407 - INFO - ============================================================
+2026-01-11 19:14:41,407 - INFO - Received analysis request for 5 stocks
+2026-01-11 19:14:41,407 - INFO - ============================================================
+2026-01-11 19:14:41,408 - INFO - Starting analysis...
+2026-01-11 19:14:59,993 - INFO - Analysis completed in 18.6s
+2026-01-11 19:14:59,993 - INFO - Top stock: ASHOKLEY with score 59.2/80
+2026-01-11 19:14:59,993 - INFO - ============================================================
+2026-01-11 19:14:59,995 - INFO - 127.0.0.1 - - [11/Jan/2026 19:14:59] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:15:07,419 - INFO - ============================================================
+2026-01-11 19:15:07,419 - INFO - Received analysis request for 5 stocks
+2026-01-11 19:15:07,419 - INFO - ============================================================
+2026-01-11 19:15:07,419 - INFO - Starting analysis...
+2026-01-11 19:15:16,400 - INFO - Analysis completed in 9.0s
+2026-01-11 19:15:16,400 - INFO - Top stock: ASHOKLEY with score 59.2/80
+2026-01-11 19:15:16,400 - INFO - ============================================================
+2026-01-11 19:15:16,401 - INFO - 127.0.0.1 - - [11/Jan/2026 19:15:16] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:17:29,247 - INFO - ============================================================
+2026-01-11 19:17:29,247 - INFO - Received analysis request for 5 stocks
+2026-01-11 19:17:29,247 - INFO - ============================================================
+2026-01-11 19:17:29,247 - INFO - Starting analysis...
+2026-01-11 19:17:43,722 - INFO - Analysis completed in 14.5s
+2026-01-11 19:17:43,723 - INFO - Top stock: ASHOKLEY with score 59.2/80
+2026-01-11 19:17:43,723 - INFO - ============================================================
+2026-01-11 19:17:43,723 - INFO - 127.0.0.1 - - [11/Jan/2026 19:17:43] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:18:32,214 - INFO - ============================================================
+2026-01-11 19:18:32,214 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:18:32,214 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:18:32,214 - INFO - ============================================================
+2026-01-11 19:18:32,219 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:18:32,219 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:18:48,246 - INFO - ============================================================
+2026-01-11 19:18:48,246 - INFO - Received analysis request for 5 stocks
+2026-01-11 19:18:48,246 - INFO - ============================================================
+2026-01-11 19:18:48,246 - INFO - Starting analysis...
+2026-01-11 19:19:09,671 - ERROR - 
+1 Failed download:
+2026-01-11 19:19:09,671 - ERROR - ['ASHOKLEY.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 19:19:16,560 - INFO - Analysis completed in 28.3s
+2026-01-11 19:19:16,560 - INFO - Top stock: ASHOKLEY with score 59.2/80
+2026-01-11 19:19:16,560 - INFO - ============================================================
+2026-01-11 19:19:16,562 - INFO - 127.0.0.1 - - [11/Jan/2026 19:19:16] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:22:00,070 - INFO - ============================================================
+2026-01-11 19:22:00,070 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:22:00,070 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:22:00,070 - INFO - ============================================================
+2026-01-11 19:22:00,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:22:00,074 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:26:35,379 - INFO - ============================================================
+2026-01-11 19:26:35,379 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:26:35,379 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:26:35,379 - INFO - ============================================================
+2026-01-11 19:26:35,387 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:26:35,387 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:26:53,080 - INFO - ============================================================
+2026-01-11 19:26:53,080 - INFO - Received analysis request for 5 stocks
+2026-01-11 19:26:53,080 - INFO - ============================================================
+2026-01-11 19:26:53,081 - INFO - Starting analysis...
+2026-01-11 19:27:05,656 - INFO - Analysis completed in 12.6s
+2026-01-11 19:27:05,657 - INFO - Top stock: ASHOKLEY with score 59.2/80
+2026-01-11 19:27:05,657 - INFO - ============================================================
+2026-01-11 19:27:05,657 - INFO - 127.0.0.1 - - [11/Jan/2026 19:27:05] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:27:26,402 - INFO - ============================================================
+2026-01-11 19:27:26,402 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:27:26,402 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:27:26,402 - INFO - ============================================================
+2026-01-11 19:27:26,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:27:26,408 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:27:33,774 - INFO - ============================================================
+2026-01-11 19:27:33,774 - INFO - Received analysis request for 10 stocks
+2026-01-11 19:27:33,774 - INFO - ============================================================
+2026-01-11 19:27:33,774 - INFO - Starting analysis...
+2026-01-11 19:27:53,505 - INFO - Analysis completed in 19.7s
+2026-01-11 19:27:53,507 - INFO - Top stock: PETRONET with score 64.7/80
+2026-01-11 19:27:53,507 - INFO - ============================================================
+2026-01-11 19:27:53,508 - INFO - 127.0.0.1 - - [11/Jan/2026 19:27:53] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:28:00,535 - INFO - ============================================================
+2026-01-11 19:28:00,535 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:28:00,535 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:28:00,535 - INFO - ============================================================
+2026-01-11 19:28:00,539 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:28:00,539 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:28:07,506 - INFO - ============================================================
+2026-01-11 19:28:07,507 - INFO - Received analysis request for 15 stocks
+2026-01-11 19:28:07,507 - INFO - ============================================================
+2026-01-11 19:28:07,507 - INFO - Starting analysis...
+2026-01-11 19:29:48,585 - INFO - Analysis completed in 101.1s
+2026-01-11 19:29:48,585 - INFO - Top stock: PETRONET with score 64.7/80
+2026-01-11 19:29:48,585 - INFO - ============================================================
+2026-01-11 19:29:48,589 - INFO - 127.0.0.1 - - [11/Jan/2026 19:29:48] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 19:33:20,423 - INFO - ============================================================
+2026-01-11 19:33:20,424 - INFO - Starting Stock Analysis API Server...
+2026-01-11 19:33:20,424 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 19:33:20,424 - INFO - ============================================================
+2026-01-11 19:33:20,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 19:33:20,428 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 19:33:32,289 - INFO - ============================================================
+2026-01-11 19:33:32,289 - INFO - Received analysis request for 10 stocks
+2026-01-11 19:33:32,289 - INFO - ============================================================
+2026-01-11 19:33:32,289 - INFO - Starting analysis...
+2026-01-11 19:34:17,765 - INFO - Analysis completed in 45.5s
+2026-01-11 19:34:17,767 - INFO - Top stock: PETRONET with score 64.7/80
+2026-01-11 19:34:17,767 - INFO - ============================================================
+2026-01-11 19:34:17,770 - INFO - 127.0.0.1 - - [11/Jan/2026 19:34:17] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 21:08:42,888 - INFO - ============================================================
+2026-01-11 21:08:42,888 - INFO - Starting Stock Analysis API Server...
+2026-01-11 21:08:42,888 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 21:08:42,888 - INFO - ============================================================
+2026-01-11 21:08:47,109 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 21:08:47,109 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 21:08:59,373 - INFO - ============================================================
+2026-01-11 21:08:59,374 - INFO - Received analysis request for 10 stocks
+2026-01-11 21:08:59,374 - INFO - ============================================================
+2026-01-11 21:08:59,374 - INFO - Starting analysis...
+2026-01-11 21:09:36,359 - INFO - Analysis completed in 37.0s
+2026-01-11 21:09:36,360 - INFO - Top stock: PETRONET with score 64.7/80
+2026-01-11 21:09:36,360 - INFO - ============================================================
+2026-01-11 21:09:36,360 - INFO - 127.0.0.1 - - [11/Jan/2026 21:09:36] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 21:10:48,774 - INFO - ============================================================
+2026-01-11 21:10:48,774 - INFO - Received analysis request for 10 stocks
+2026-01-11 21:10:48,774 - INFO - ============================================================
+2026-01-11 21:10:48,774 - INFO - Starting analysis...
+2026-01-11 21:10:58,900 - INFO - Analysis completed in 10.1s
+2026-01-11 21:10:58,900 - INFO - Top stock: PETRONET with score 64.7/80
+2026-01-11 21:10:58,900 - INFO - ============================================================
+2026-01-11 21:10:58,901 - INFO - 127.0.0.1 - - [11/Jan/2026 21:10:58] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 21:12:41,369 - INFO - ============================================================
+2026-01-11 21:12:41,370 - INFO - Starting Stock Analysis API Server...
+2026-01-11 21:12:41,370 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 21:12:41,370 - INFO - ============================================================
+2026-01-11 21:12:45,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 21:12:45,611 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 21:12:58,491 - INFO - ============================================================
+2026-01-11 21:12:58,492 - INFO - Received analysis request for 20 stocks
+2026-01-11 21:12:58,492 - INFO - ============================================================
+2026-01-11 21:12:58,492 - INFO - Starting analysis...
+2026-01-11 21:13:55,121 - ERROR - 
+1 Failed download:
+2026-01-11 21:13:55,121 - ERROR - ['MAHABANK.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:14:00,745 - INFO - Analysis completed in 62.3s
+2026-01-11 21:14:00,745 - INFO - Top stock: PETRONET with score 64.7/80
+2026-01-11 21:14:00,746 - INFO - ============================================================
+2026-01-11 21:14:00,748 - INFO - 127.0.0.1 - - [11/Jan/2026 21:14:00] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 21:14:31,270 - INFO - ============================================================
+2026-01-11 21:14:31,270 - INFO - Received analysis request for 50 stocks
+2026-01-11 21:14:31,270 - INFO - ============================================================
+2026-01-11 21:14:31,270 - INFO - Starting analysis...
+2026-01-11 21:15:28,638 - ERROR - 
+1 Failed download:
+2026-01-11 21:15:28,640 - ERROR - ['INDUSTOWER.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:15:46,922 - ERROR - 
+1 Failed download:
+2026-01-11 21:15:46,923 - ERROR - ['MPHASIS.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:16:03,283 - ERROR - 
+1 Failed download:
+2026-01-11 21:16:03,284 - ERROR - ['INDIANB.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:17:31,860 - ERROR - 
+1 Failed download:
+2026-01-11 21:17:31,861 - ERROR - ['NUVOCO.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:17:36,136 - INFO - Analysis completed in 184.9s
+2026-01-11 21:17:36,136 - INFO - Top stock: PETRONET with score 64.7/80
+2026-01-11 21:17:36,136 - INFO - ============================================================
+2026-01-11 21:17:36,138 - INFO - 127.0.0.1 - - [11/Jan/2026 21:17:36] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 21:18:33,520 - INFO - ============================================================
+2026-01-11 21:18:33,521 - INFO - Received analysis request for 200 stocks
+2026-01-11 21:18:33,521 - INFO - ============================================================
+2026-01-11 21:18:33,521 - INFO - Starting analysis...
+2026-01-11 21:22:06,975 - ERROR - 
+1 Failed download:
+2026-01-11 21:22:06,976 - ERROR - ['VMM.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:24:29,914 - ERROR - 
+1 Failed download:
+2026-01-11 21:24:29,916 - ERROR - ['FEDERALBNK.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:24:59,790 - ERROR - Failed to get ticker 'AAVAS.NS' reason: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-11 21:25:24,976 - ERROR - 
+1 Failed download:
+2026-01-11 21:25:24,976 - ERROR - ['LUPIN.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:26:44,853 - ERROR - Failed to get ticker 'HINDPETRO.NS' reason: Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-11 21:27:14,866 - ERROR - 
+1 Failed download:
+2026-01-11 21:27:14,867 - ERROR - ['HINDPETRO.NS']: Timeout('Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-01-11 21:31:40,588 - INFO - Analysis completed in 787.1s
+2026-01-11 21:31:40,588 - INFO - Top stock: NHPC with score 65.7/80
+2026-01-11 21:31:40,588 - INFO - ============================================================
+2026-01-11 21:31:40,590 - INFO - 127.0.0.1 - - [11/Jan/2026 21:31:40] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 21:34:13,657 - INFO - ============================================================
+2026-01-11 21:34:13,657 - INFO - Received analysis request for 500 stocks
+2026-01-11 21:34:13,657 - INFO - ============================================================
+2026-01-11 21:34:13,657 - INFO - Starting analysis...
+2026-01-11 21:34:25,782 - ERROR - Analysis failed: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/urllib3/response.py", line 903, in _error_catcher
+    yield
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/urllib3/response.py", line 1418, in read_chunked
+    self._update_chunk_length()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/urllib3/response.py", line 1333, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/requests/models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/urllib3/response.py", line 1250, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/urllib3/response.py", line 1397, in read_chunked
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/urllib3/response.py", line 908, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alabana/Documents/short-term-growth/server/app.py", line 74, in analyze_stocks
+    results = fetch_and_score_all_stocks(limit=limit)
+  File "/Users/alabana/Documents/short-term-growth/server/../api_requests/main.py", line 120, in fetch_and_score_all_stocks
+    stocks = get_nifty_500_stocks()
+  File "/Users/alabana/Documents/short-term-growth/server/../api_requests/nse_nifty500_list.py", line 34, in get_nifty_500_stocks
+    response = session.get(url, headers=headers, timeout=10)
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/requests/sessions.py", line 746, in send
+    r.content
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/requests/models.py", line 902, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alabana/Documents/short-term-growth/venv/lib/python3.14/site-packages/requests/models.py", line 826, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out.
+2026-01-11 21:34:25,801 - INFO - 127.0.0.1 - - [11/Jan/2026 21:34:25] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2026-01-11 21:34:51,284 - INFO - ============================================================
+2026-01-11 21:34:51,285 - INFO - Received analysis request for 500 stocks
+2026-01-11 21:34:51,285 - INFO - ============================================================
+2026-01-11 21:34:51,285 - INFO - Starting analysis...
+2026-01-11 21:36:50,686 - ERROR - 
+1 Failed download:
+2026-01-11 21:36:50,689 - ERROR - ['INDIANB.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:46:05,484 - INFO - ============================================================
+2026-01-11 21:46:05,484 - INFO - Starting Stock Analysis API Server...
+2026-01-11 21:46:05,484 - INFO - Server running on http://0.0.0.0:5000
+2026-01-11 21:46:05,484 - INFO - ============================================================
+2026-01-11 21:46:05,488 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.7:5000
+2026-01-11 21:46:05,488 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 21:46:14,000 - INFO - ============================================================
+2026-01-11 21:46:14,000 - INFO - Received analysis request for 500 stocks
+2026-01-11 21:46:14,000 - INFO - ============================================================
+2026-01-11 21:46:14,000 - INFO - Starting analysis...
+2026-01-11 21:46:53,981 - ERROR - 
+1 Failed download:
+2026-01-11 21:46:53,982 - ERROR - ['STARHEALTH.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:48:23,001 - ERROR - 
+1 Failed download:
+2026-01-11 21:48:23,013 - ERROR - ['CRISIL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:51:18,183 - ERROR - 
+1 Failed download:
+2026-01-11 21:51:18,184 - ERROR - ['KPITTECH.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:51:57,144 - ERROR - 
+1 Failed download:
+2026-01-11 21:51:57,144 - ERROR - ['POWERGRID.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:52:44,833 - ERROR - 
+1 Failed download:
+2026-01-11 21:52:44,836 - ERROR - ['GODIGIT.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:53:26,824 - ERROR - 
+1 Failed download:
+2026-01-11 21:53:26,825 - ERROR - ['GICRE.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:54:43,192 - ERROR - 
+1 Failed download:
+2026-01-11 21:54:43,192 - ERROR - ['EICHERMOT.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:55:13,794 - ERROR - 
+1 Failed download:
+2026-01-11 21:55:13,798 - ERROR - ['BRITANNIA.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 21:56:16,900 - ERROR - 
+1 Failed download:
+2026-01-11 21:56:16,902 - ERROR - ['PGHH.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 22:00:03,632 - ERROR - Failed to get ticker 'BASF.NS' reason: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-11 22:00:38,564 - ERROR - 
+1 Failed download:
+2026-01-11 22:00:38,568 - ERROR - ['PIDILITIND.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 22:01:37,668 - ERROR - Failed to get ticker 'M&M.NS' reason: Failed to perform, curl: (28) Connection timed out after 10003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-01-11 22:48:24,926 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:48:29,970 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 22:48:29,970 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 22:48:29,972 - INFO -  * Restarting with stat
+2026-01-11 22:48:30,608 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:48:30,630 - WARNING -  * Debugger is active!
+2026-01-11 22:48:30,649 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 22:48:32,528 - INFO - 127.0.0.1 - - [11/Jan/2026 22:48:32] "GET /health HTTP/1.1" 200 -
+2026-01-11 22:48:55,035 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:48:55,273 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 22:48:55,273 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 22:48:55,274 - INFO -  * Restarting with stat
+2026-01-11 22:48:55,858 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:48:55,891 - WARNING -  * Debugger is active!
+2026-01-11 22:48:55,914 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 22:48:59,022 - INFO - Starting analysis for top 500 stocks...
+2026-01-11 22:49:09,203 - ERROR - Error in analyze endpoint: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=10)
+2026-01-11 22:49:09,204 - INFO - 127.0.0.1 - - [11/Jan/2026 22:49:09] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2026-01-11 22:49:18,313 - INFO - Starting analysis for top 500 stocks...
+2026-01-11 22:49:31,547 - ERROR - 
+1 Failed download:
+2026-01-11 22:49:31,547 - ERROR - ['NATIONALUM.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 22:53:53,404 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:53:53,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 22:53:53,428 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 22:53:53,429 - INFO -  * Restarting with stat
+2026-01-11 22:53:54,012 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:53:54,025 - WARNING -  * Debugger is active!
+2026-01-11 22:53:54,049 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 22:54:01,819 - INFO - Starting analysis for top 500 stocks...
+2026-01-11 22:54:08,122 - ERROR - $NATIONALUM: possibly delisted; no timezone found
+2026-01-11 22:54:08,122 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:08,123 - ERROR - ['NATIONALUM']: possibly delisted; no timezone found
+2026-01-11 22:54:11,294 - ERROR - $NATIONALUM: possibly delisted; no timezone found
+2026-01-11 22:54:11,299 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:11,299 - ERROR - ['NATIONALUM']: possibly delisted; no timezone found
+2026-01-11 22:54:12,642 - ERROR - $HINDZINC: possibly delisted; no timezone found
+2026-01-11 22:54:12,647 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:12,647 - ERROR - ['HINDZINC']: possibly delisted; no timezone found
+2026-01-11 22:54:13,663 - ERROR - $HINDZINC: possibly delisted; no timezone found
+2026-01-11 22:54:13,670 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:13,671 - ERROR - ['HINDZINC']: possibly delisted; no timezone found
+2026-01-11 22:54:14,625 - ERROR - $OIL: possibly delisted; no price data found  (1d 2025-11-12 -> 2026-01-11)
+2026-01-11 22:54:14,634 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:14,635 - ERROR - ['OIL']: possibly delisted; no price data found  (1d 2025-11-12 -> 2026-01-11)
+2026-01-11 22:54:15,651 - ERROR - $OIL: possibly delisted; no price data found  (1d 2025-11-12 -> 2026-01-11)
+2026-01-11 22:54:15,658 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:15,659 - ERROR - ['OIL']: possibly delisted; no price data found  (1d 2025-11-12 -> 2026-01-11)
+2026-01-11 22:54:17,832 - ERROR - $COROMANDEL: possibly delisted; no timezone found
+2026-01-11 22:54:17,835 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:17,835 - ERROR - ['COROMANDEL']: possibly delisted; no timezone found
+2026-01-11 22:54:18,846 - ERROR - $COROMANDEL: possibly delisted; no timezone found
+2026-01-11 22:54:18,855 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:18,856 - ERROR - ['COROMANDEL']: possibly delisted; no timezone found
+2026-01-11 22:54:20,226 - ERROR - $ASHOKLEY: possibly delisted; no timezone found
+2026-01-11 22:54:20,232 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:20,232 - ERROR - ['ASHOKLEY']: possibly delisted; no timezone found
+2026-01-11 22:54:21,241 - ERROR - $ASHOKLEY: possibly delisted; no timezone found
+2026-01-11 22:54:21,252 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:21,252 - ERROR - ['ASHOKLEY']: possibly delisted; no timezone found
+2026-01-11 22:54:23,009 - ERROR - $COFORGE: possibly delisted; no timezone found
+2026-01-11 22:54:23,020 - ERROR - 
+1 Failed download:
+2026-01-11 22:54:23,020 - ERROR - ['COFORGE']: possibly delisted; no timezone found
+2026-01-11 22:56:59,903 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:56:59,940 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 22:56:59,940 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 22:56:59,941 - INFO -  * Restarting with stat
+2026-01-11 22:57:00,513 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:57:00,528 - WARNING -  * Debugger is active!
+2026-01-11 22:57:00,553 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 22:57:20,126 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:58:01,870 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:58:01,897 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 22:58:01,897 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 22:58:01,898 - INFO -  * Restarting with stat
+2026-01-11 22:58:02,496 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:58:02,513 - WARNING -  * Debugger is active!
+2026-01-11 22:58:02,927 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 22:58:10,766 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:58:10,795 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 22:58:10,796 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 22:58:10,796 - INFO -  * Restarting with stat
+2026-01-11 22:58:11,369 - INFO - Starting Flask server on port 5000...
+2026-01-11 22:58:11,384 - WARNING -  * Debugger is active!
+2026-01-11 22:58:11,410 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 22:58:25,384 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 22:59:26,951 - ERROR - 
+1 Failed download:
+2026-01-11 22:59:26,952 - ERROR - ['KEC.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 22:59:42,063 - ERROR - 
+1 Failed download:
+2026-01-11 22:59:42,063 - ERROR - ['COLPAL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 22:59:55,169 - ERROR - 
+1 Failed download:
+2026-01-11 22:59:55,169 - ERROR - ['BEL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:00:29,320 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:00:50,983 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:00:51,004 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:00:51,004 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:00:51,004 - INFO -  * Restarting with stat
+2026-01-11 23:00:51,590 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:00:51,605 - WARNING -  * Debugger is active!
+2026-01-11 23:00:51,629 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:01:03,815 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:11:35,211 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:11:40,238 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:11:40,239 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:11:40,240 - INFO -  * Restarting with stat
+2026-01-11 23:11:40,749 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:11:40,764 - WARNING -  * Debugger is active!
+2026-01-11 23:11:40,793 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:11:47,308 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:14:29,415 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:14:29,742 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:14:29,742 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:14:29,743 - INFO -  * Restarting with stat
+2026-01-11 23:14:30,248 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:14:30,264 - WARNING -  * Debugger is active!
+2026-01-11 23:14:30,294 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:14:34,160 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:15:59,524 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:15:59,546 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:15:59,546 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:15:59,547 - INFO -  * Restarting with stat
+2026-01-11 23:16:00,024 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:16:00,040 - WARNING -  * Debugger is active!
+2026-01-11 23:16:00,066 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:16:58,859 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:17:01,401 - INFO - Starting analysis for top 1 stocks...
+2026-01-11 23:32:54,743 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:32:59,772 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:32:59,772 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:32:59,773 - INFO -  * Restarting with stat
+2026-01-11 23:33:00,379 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:33:00,395 - WARNING -  * Debugger is active!
+2026-01-11 23:33:00,419 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:33:00,485 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:33:12,626 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:33:12,648 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:33:12,648 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:33:12,649 - INFO -  * Restarting with stat
+2026-01-11 23:33:13,212 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:33:13,228 - WARNING -  * Debugger is active!
+2026-01-11 23:33:13,251 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:33:48,330 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:35:02,774 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:35:02,795 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:35:02,795 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:35:02,796 - INFO -  * Restarting with stat
+2026-01-11 23:35:03,409 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:35:03,424 - WARNING -  * Debugger is active!
+2026-01-11 23:35:03,453 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:35:07,081 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:37:39,026 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:37:39,047 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:37:39,047 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:37:39,047 - INFO -  * Restarting with stat
+2026-01-11 23:37:39,664 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:37:39,681 - WARNING -  * Debugger is active!
+2026-01-11 23:37:39,698 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:37:42,669 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:37:54,308 - INFO - Analysis completed. Found 5 stocks
+2026-01-11 23:37:54,309 - ERROR - Error in analyze endpoint: Object of type int64 is not JSON serializable
+2026-01-11 23:37:54,309 - INFO - 127.0.0.1 - - [11/Jan/2026 23:37:54] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2026-01-11 23:38:37,843 - INFO -  * Detected change in '/Users/alabana/Documents/short-term-growth/api_requests/main.py', reloading
+2026-01-11 23:38:38,049 - INFO -  * Restarting with stat
+2026-01-11 23:38:38,720 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:38:38,736 - WARNING -  * Debugger is active!
+2026-01-11 23:38:38,763 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:38:43,948 - INFO -  * Detected change in '/Users/alabana/Documents/short-term-growth/api_requests/main.py', reloading
+2026-01-11 23:38:44,056 - INFO -  * Restarting with stat
+2026-01-11 23:38:44,688 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:38:44,705 - WARNING -  * Debugger is active!
+2026-01-11 23:38:44,731 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:38:52,508 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:38:52,541 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:38:52,541 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:38:52,542 - INFO -  * Restarting with stat
+2026-01-11 23:38:53,148 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:38:53,168 - WARNING -  * Debugger is active!
+2026-01-11 23:38:53,184 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:38:56,378 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:39:06,576 - ERROR - Error in analyze endpoint: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=10)
+2026-01-11 23:39:06,578 - INFO - 127.0.0.1 - - [11/Jan/2026 23:39:06] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2026-01-11 23:39:13,119 - INFO - Starting analysis for top 5 stocks...
+2026-01-11 23:39:31,215 - INFO - Analysis completed. Found 5 stocks
+2026-01-11 23:39:31,215 - INFO - 127.0.0.1 - - [11/Jan/2026 23:39:31] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 23:39:55,768 - INFO - Starting analysis for top 15 stocks...
+2026-01-11 23:40:45,792 - INFO - Analysis completed. Found 15 stocks
+2026-01-11 23:40:45,793 - INFO - 127.0.0.1 - - [11/Jan/2026 23:40:45] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 23:41:52,910 - INFO -  * Detected change in '/Users/alabana/Documents/short-term-growth/api_requests/main.py', reloading
+2026-01-11 23:41:53,080 - INFO -  * Restarting with stat
+2026-01-11 23:41:53,809 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:41:53,833 - WARNING -  * Debugger is active!
+2026-01-11 23:41:53,858 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:41:59,051 - INFO -  * Detected change in '/Users/alabana/Documents/short-term-growth/api_requests/main.py', reloading
+2026-01-11 23:41:59,333 - INFO -  * Restarting with stat
+2026-01-11 23:41:59,959 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:41:59,976 - WARNING -  * Debugger is active!
+2026-01-11 23:41:59,995 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:42:15,673 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:42:15,696 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:42:15,696 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:42:15,696 - INFO -  * Restarting with stat
+2026-01-11 23:42:16,277 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:42:16,293 - WARNING -  * Debugger is active!
+2026-01-11 23:42:16,318 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:42:18,795 - INFO - Starting analysis for top 15 stocks...
+2026-01-11 23:44:58,805 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:44:58,825 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://100.64.0.1:5000
+2026-01-11 23:44:58,825 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 23:44:58,826 - INFO -  * Restarting with stat
+2026-01-11 23:44:59,515 - INFO - Starting Flask server on port 5000...
+2026-01-11 23:44:59,529 - WARNING -  * Debugger is active!
+2026-01-11 23:44:59,548 - INFO -  * Debugger PIN: 220-719-903
+2026-01-11 23:45:02,588 - INFO - Starting analysis for top 15 stocks...
+2026-01-11 23:45:19,139 - ERROR - 
+1 Failed download:
+2026-01-11 23:45:19,140 - ERROR - ['NATIONALUM.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:46:00,908 - INFO - Analysis completed. Found 5 stocks
+2026-01-11 23:46:00,909 - INFO - 127.0.0.1 - - [11/Jan/2026 23:46:00] "POST /analyze HTTP/1.1" 200 -
+2026-01-11 23:48:43,920 - INFO - Starting analysis for top 500 stocks...
+2026-01-11 23:55:45,325 - ERROR - 
+1 Failed download:
+2026-01-11 23:55:45,325 - ERROR - ['EICHERMOT.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:56:01,493 - ERROR - 
+1 Failed download:
+2026-01-11 23:56:01,493 - ERROR - ['CLEAN.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:56:22,853 - ERROR - 
+1 Failed download:
+2026-01-11 23:56:22,853 - ERROR - ['GODREJAGRO.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:57:05,636 - ERROR - 
+1 Failed download:
+2026-01-11 23:57:05,636 - ERROR - ['TVSMOTOR.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:57:24,762 - ERROR - 
+1 Failed download:
+2026-01-11 23:57:24,763 - ERROR - ['SRF.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:58:32,348 - ERROR - 
+1 Failed download:
+2026-01-11 23:58:32,348 - ERROR - ['SAREGAMA.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-11 23:59:31,714 - ERROR - 
+1 Failed download:
+2026-01-11 23:59:31,715 - ERROR - ['HONASA.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:00:30,351 - ERROR - 
+1 Failed download:
+2026-01-12 00:00:30,351 - ERROR - ['ACC.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-01-12 00:01:36,798 - ERROR - 
+1 Failed download:
+2026-01-12 00:01:36,798 - ERROR - ['MAHSCOOTER.NS']: TypeError("'NoneType' object is not subscriptable")
